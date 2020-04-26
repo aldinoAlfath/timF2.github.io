@@ -200,11 +200,18 @@ header {
 }
 
 .team-wrapper {
-  padding-bottom: 80px;
+  padding-bottom:0;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f1f5f8;
+  background-color: #d3d3d3;
+  animation-name: example;
+  animation-duration: 4s;
   text-align: center;
+}
+
+@keyframes example {
+  from {background-color: #07a053;}
+  to {background-color: #6689BF;}
 }
 
 .heading {
@@ -293,8 +300,8 @@ footer img {
 }
 
 footer p {
-  color: #b3aeb5;
-  font-size: 13px;
+  color: #28224885;
+  font-size: 18px;
 }
 
 footer {
@@ -348,6 +355,8 @@ form textarea {
   display: flex;
   padding: 5px 10px;
   flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 0
 }
 
 .row-15 {
